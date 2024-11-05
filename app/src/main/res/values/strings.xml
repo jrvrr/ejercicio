@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LigaMx</string>
+    <string-array name="locaciones">
+        <item>América: Estadio Azteca (Ciudad de México)</item>
+        <item>Atlas: Estadio Jalisco (Guadalajara)</item>
+        <item>Chivas: Estadio Akron (Zapopan)</item>
+        <item>Cruz Azul: Estadio Azul (Ciudad de México)</item>
+        <item>Juárez FC: Estadio Olímpico Benito Juárez (Ciudad Juárez)</item>
+        <item>León: Estadio León (León)</item>
+        <item>Mazatlán: Estadio de Mazatlán (Mazatlán)</item>
+        <item>Monterrey: Estadio BBVA (Guadalupe)</item>
+        <item>Necaxa: Estadio Victoria (Aguascalientes)</item>
+        <item>Pachuca: Estadio Hidalgo (Pachuca)</item>
+        <item>Puebla: Estadio Cuauhtémoc (Puebla)</item>
+        <item>Pumas: Estadio Olímpico Universitario (Ciudad de México)</item>
+        <item>Queretaro: Estadio Corregidora (Queretaro)</item>
+        <item>San Luis: Estadio Alfonso Lastras Ramírez (San Luis Potosí)</item>
+        <item>Santos: Estadio Corona (Torreón)</item>
+        <item>Toluca: Estadio Nemesio Díez (Toluca)</item>
+        <item>Tigres: Estadio Universitario (Monterrey)</item>
+        <item>Xolos: Estadio Caliente (Tijuana)</item>
+    </string-array>
+
+</resources>

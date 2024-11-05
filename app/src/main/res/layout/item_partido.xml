@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/cruz">
+
+    <TextView
+        android:id="@+id/txtEquipoLocal"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Equipo Local"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtEquipoVisitante"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:paddingTop="10dp"
+        android:text="Equipo Visitante"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtCantidadApuesta"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:paddingTop="10dp"
+        android:text="Cantidad Apuesta"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtGanador"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:paddingTop="10dp"
+        android:text="Ganador"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+</LinearLayout>

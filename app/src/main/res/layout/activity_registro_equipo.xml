@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/background">
+
+        <!-- Nombre del equipo -->
+        <EditText
+            android:id="@+id/txtNombreEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Nombre del Equipo" />
+
+        <!-- Alias del equipo -->
+        <EditText
+            android:id="@+id/txtAlias"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Alias" />
+
+        <!-- Spinner para locación -->
+        <Spinner
+            android:id="@+id/spinnerLocacion"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/locaciones" />
+
+        <!-- Contenedor para los ImageButtons -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="447dp"
+            android:layout_marginTop="16dp"
+            android:columnCount="4"
+            android:gravity="center">
+
+            <!-- Botones de imagen para seleccionar el logo -->
+        <ImageButton
+            android:id="@+id/btnLogo1"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 1"
+            android:src="@drawable/america" />
+
+        <ImageButton
+            android:id="@+id/btnLogo2"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 2"
+            android:src="@drawable/atlas" />
+
+        <ImageButton
+            android:id="@+id/btnLogo3"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 3"
+            android:src="@drawable/chivas" />
+
+        <ImageButton
+            android:id="@+id/btnLogo4"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 4"
+            android:src="@drawable/cruzazul" />
+
+        <ImageButton
+            android:id="@+id/btnLogo5"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 5"
+            android:src="@drawable/juarez" />
+
+        <ImageButton
+            android:id="@+id/btnLogo6"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 6"
+            android:src="@drawable/leon" />
+
+        <ImageButton
+            android:id="@+id/btnLogo7"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 7"
+            android:src="@drawable/mazatlan" />
+
+        <ImageButton
+            android:id="@+id/btnLogo8"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 8"
+            android:src="@drawable/monterrey" />
+
+        <ImageButton
+            android:id="@+id/btnLogo9"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 9"
+            android:src="@drawable/necaxa" />
+
+        <ImageButton
+            android:id="@+id/btnLogo10"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 10"
+            android:src="@drawable/pachuca" />
+
+        <ImageButton
+            android:id="@+id/btnLogo11"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 11"
+            android:src="@drawable/puebla" />
+
+        <ImageButton
+            android:id="@+id/btnLogo12"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 12"
+            android:src="@drawable/pumas" />
+
+        <ImageButton
+            android:id="@+id/btnLogo13"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 13"
+            android:src="@drawable/queretaro" />
+
+        <ImageButton
+            android:id="@+id/btnLogo14"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 14"
+            android:src="@drawable/sanluis" />
+
+        <ImageButton
+            android:id="@+id/btnLogo15"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 15"
+            android:src="@drawable/santos" />
+
+        <ImageButton
+            android:id="@+id/btnLogo16"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 16"
+            android:src="@drawable/tigres" />
+
+        <ImageButton
+            android:id="@+id/btnLogo17"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 17"
+            android:src="@drawable/toluca" />
+
+        <ImageButton
+            android:id="@+id/btnLogo18"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:layout_margin="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logo 18"
+            android:src="@drawable/xolos" />
+        </GridLayout>
+
+        <!-- ImageView para mostrar el logo seleccionado -->
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Logo del Equipo"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <!-- Botón para guardar el equipo -->
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Guardar Equipo"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue"/>
+
+    </LinearLayout>
